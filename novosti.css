@@ -1,0 +1,183 @@
+img{
+    width: 75px;
+    height: 75px;
+  }
+  header{
+    display: flex;
+    background-color: rgb(166, 182, 243);
+    position: sticky;
+    z-index: 20;
+    padding: 4px;
+  }
+  input{
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .search{
+    margin-left: 20%;
+    margin-top: 19px;
+  }
+  .a{
+    display: flex;
+    gap:50px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+  .login{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+  
+  }
+  .container {
+    padding: 20px;
+}
+.news-item {
+    background-color: rgb(184, 214, 255);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.news-item h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+.news-item p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.news-item time {
+    font-size: 14px;
+    color: #888;
+}
+.team-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.team-info div {
+    width: 30%;
+    background-color: #e2f4ff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.team-info img {
+    width: 50%;
+    align-items: center;
+    border-radius: 5px;
+}
+.statistics {
+    background-color: #e2f4ff;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.statistics table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.statistics th, .statistics td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.statistics th {
+    background-color: #007bff;
+    color: white;
+}
+.contact-form {
+    margin-top: 40px;
+    background-color: #e2f4ff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.contact-form button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+.footer {
+    background-color: #003366; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .footer-links ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .social-icon:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+  }
